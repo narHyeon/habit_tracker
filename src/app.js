@@ -10,7 +10,7 @@ class App extends Component {
             { id: 2, name: 'Running', count: 0 },
             { id: 3, name: 'Coding', count: 0 },
         ]
-    };    
+    };
 
     handleIncrement = habit => {
         const habits = this.state.habits.map(item => {
